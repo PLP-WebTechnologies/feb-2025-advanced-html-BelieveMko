@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Web Technology</title>
+</head>
+<body>
+    <!-- Practising different tags -->
+
+    <h1>My Ordered List</h1>
+    <ol type="I">
+        <li>Zimbabwe</li>
+        <li>South Africa</li>
+        <li>Namibia</li>
+    </ol>
+
+    <h2>External image from pexels</h2>
+      <img src="https://images.pexels.com/photos/30844488/pexels-photo-30844488/free-photo-of-majestic-leopard-in-snowy-habitat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A cheetah" />
+
+        <h2>Contact Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>James Lian</td>
+                <td>123 3rd Street Harare</td>
+                <td>+26378678902</td>
+                <td>jameslian.gmailcom</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Waterlo Chicago </td>
+                <td>+12728376</td>
+                <td>janesmith@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily Jacobs</td>
+                <td>1927 44th Street Namibia</td>
+                <td>+234827262</td>
+                <td>emilyjacobs@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>321 Pine Street London</td>
+                <td>+24252562</td>
+                <td>michaelbrown@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Sarah Luke</td>
+                <td>654 Mount Pleasant Harare</td>
+                <td>+26283962872</td>
+                <td>sarahluke@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <h2>Simple Registration Form</h2>
+    <form>
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        <br />
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        <br />
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required />
+        <br />
+
+        <!-- Date Field -->
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="date" required />
+        <br />
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select>
+        <br />
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required />
+        <label for="female">Female</label>
+        <br />
+
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="coding" name="interests" value="coding" />
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="music" name="interests" value="music" />
+        <label for="music">Music</label>
+        <br />
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register" />
+    </form>
+</body>
+</html>
